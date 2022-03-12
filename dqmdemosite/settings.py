@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-!acba!x+(p_imcj*$d^k(r9035+%)lyzxnthk19y1omc5xbc%y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1','dqmdemositee.herokuapp.com']
 
 
 # Application definition
@@ -125,7 +125,7 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = BASE_DIR / 'static'
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
