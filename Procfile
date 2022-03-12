@@ -1,1 +1,1 @@
-web: gunicorn dqmdemosite.wsgi
+web: gunicorn dqmdemositee.wsgi
