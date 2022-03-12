@@ -1,1 +1,1 @@
-web gunicorn dqmdemosite.wsgi:application --log-file -
+web: gunicorn dqmdemositee.wsgi --log-file -
