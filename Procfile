@@ -1,0 +1,1 @@
+web: gunicorn dqmdemosite.wsgi --log-file -
